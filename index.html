@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Khazi | Portfolio</title>
+    <meta name="description" content="Portfolio of Sameer Khazi, a BE Computer Science Engineering student from BLDEACET, Bengaluru.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-area">
+                    <img src="assets/avatar.jpg" alt="Sameer Khazi" class="nav-avatar" id="nav-avatar">
+                    <a href="#" class="logo" aria-label="Sameer Home">Sameer</a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#expertise">Expertise</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content reveal">
+                    <div class="hero-avatar-container">
+                        <div id="hero-avatar-target"></div>
+                    </div>
+                    <h2>Hey, I'm</h2>
+                    <h1>Sameer Khazi</h1>
+                    <div class="typing-text" id="typing-text"></div>
+                    <p class="hero-bio">
+                        Software Developer building scalable solutions. Currently 
+                        <strong>working on EventLedger</strong>, a B2B SaaS platform for 
+                        educational institutions.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">See My Work &darr;</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="tech-pills">
+                        <span class="pill" style="animation-delay: 0s;">Python</span>
+                        <span class="pill" style="animation-delay: 0.5s;">Flask</span>
+                        <span class="pill" style="animation-delay: 1s;">PostgreSQL</span>
+                        <span class="pill" style="animation-delay: 1.5s;">JavaScript</span>
+                        <span class="pill" style="animation-delay: 2s;">Git</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About 2x2 Grid -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <!-- Full Width Featured Card -->
+                    <div class="glass-card full-width-card reveal">
+                        <span class="card-icon">🎓</span>
+                        <div>
+                            <h3>BE CSE Student</h3>
+                            <p>Pursuing Computer Science Engineering at BLDEACET, Vijayapur. Class of 2025.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Row of 3 Cards -->
+                    <div class="glass-card reveal">
+                        <span class="card-icon">🚀</span>
+                        <h3>Full-Stack Dev</h3>
+                        <p>Specializing in Python/Flask and modern JavaScript to build end-to-end solutions.</p>
+                    </div>
+                    <div class="glass-card reveal">
+                        <span class="card-icon">💡</span>
+                        <h3>Problem Solver</h3>
+                        <p>Focused on creating efficient algorithms and streamlining complex workflows.</p>
+                    </div>
+                    <div class="glass-card reveal">
+                        <span class="card-icon">🔗</span>
+                        <h3>Working on EventLedger</h3>
+                        <p>Architecting a scalable platform for college event management and NAAC documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Featured Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card featured reveal">
+                        <div class="project-content">
+                            <span class="project-tag">FEATURED PRODUCT</span>
+                            <h3>EventLedger</h3>
+                            <p>A comprehensive platform streamlining college event management and NAAC documentation.</p>
+                            
+                            <!-- Social Impact Initiative -->
+                            <div class="social-impact-card">
+                                <span class="impact-icon">🌱</span>
+                                <div>
+                                    <h4>Social Impact Initiative</h4>
+                                    <p>I am committed to providing <strong>EventLedger</strong> free of charge to any educational NGO or community-led social initiative. Every event hosted plants 1 tree through <a href="https://sankalptaru.org/" target="_blank" style="color: #0D9488; text-decoration: underline; font-weight: 700;">Sankalpataru Foundation</a>, and 10% of profits are donated to <a href="https://www.akshayapatra.org/" target="_blank" style="color: #0D9488; text-decoration: underline; font-weight: 700;">Akshaya Patra Foundation</a>.</p>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://www.eventledger.me/" target="_blank" class="btn btn-primary">View Project</a>
+                                <a href="https://github.com/sameerkhazi" target="_blank" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Foundation Section -->
+                    <div class="foundation-card reveal">
+                        <div class="foundation-content">
+                            <p>currently working under the <strong>B M PATIL FOUNDATION</strong></p>
+                        </div>
+                        <a href="https://bldea.org/" target="_blank" class="btn-visit">Visit</a>
+                    </div>
+
+
+                    <article class="project-card reveal">
+                        <div class="project-content">
+                            <span class="project-tag">UTILITY</span>
+                            <h3>VTU Result Ranker</h3>
+                            <p>Automated tool fetching and ranking exam results for 60+ students, providing academic analytics.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Expertise (Dark Section) -->
+        <section id="expertise" class="container">
+            <div class="expertise-section reveal">
+                <div style="text-align: center; position: relative; z-index: 2;">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Technical Expertise</h2>
+                    <p style="color: #9CA3AF;">Performance-driven development with measurable impact.</p>
+                </div>
+                <div class="expertise-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="15">0</div>
+                        <p style="color: #9CA3AF;">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5000">0</div>
+                        <p style="color: #9CA3AF;">Lines of Code</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="99">0</div>
+                        <p style="color: #9CA3AF;">Uptime Delivery %</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="footer-card reveal">
+                    <h2>Let's Build Something Great</h2>
+                    <p>Open to internships, collaborations, and feedback on EventLedger.</p>
+                    <a href="mailto:sameerkhazi424@gmail.com" class="btn btn-primary">Get In Touch</a>
+                    <div class="social-links">
+                        <a href="mailto:sameerkhazi424@gmail.com">Email</a>
+                        <a href="https://www.linkedin.com/in/sameer-khazi-472bb537b/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/sameerkhazi" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <!-- Footer content removed as per request -->
+        </div>
+    </footer>
+
+    <img src="assets/avatar.jpg" id="flying-avatar" class="flying-avatar" alt="Sameer">
+
+    <div id="image-overlay" class="image-overlay" aria-label="Enlarged profile picture" role="dialog">
+        <img src="assets/avatar.jpg" alt="Sameer Khazi enlarged">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
